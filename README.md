@@ -1,4 +1,4 @@
 # PasswordView
 
 
- <img src="./style.png" width = "200" height = "400" alt="style" align=center />
+ <img src="./style.png" width = "300" height = "500" alt="style" align=center />
