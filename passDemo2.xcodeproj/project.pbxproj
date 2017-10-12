@@ -13,8 +13,6 @@
 		0D13B2901F8E027E0088756A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D13B28F1F8E027E0088756A /* Assets.xcassets */; };
 		0D13B2931F8E027E0088756A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D13B2911F8E027E0088756A /* LaunchScreen.storyboard */; };
 		0D13B2961F8E027E0088756A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D13B2951F8E027E0088756A /* main.m */; };
-		0D13B2A01F8E027F0088756A /* passDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D13B29F1F8E027F0088756A /* passDemo2Tests.m */; };
-		0D13B2AB1F8E027F0088756A /* passDemo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D13B2AA1F8E027F0088756A /* passDemo2UITests.m */; };
 		0D13B2BA1F8E02B20088756A /* JKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D13B2B91F8E02B20088756A /* JKTextField.m */; };
 		0D13B2BD1F8E03950088756A /* JKInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D13B2BC1F8E03950088756A /* JKInputView.m */; };
 		0D13B2C01F8E04B60088756A /* JKInputItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D13B2BF1F8E04B60088756A /* JKInputItem.m */; };
@@ -49,11 +47,7 @@
 		0D13B2941F8E027E0088756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D13B2951F8E027E0088756A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D13B29B1F8E027E0088756A /* passDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D13B29F1F8E027F0088756A /* passDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = passDemo2Tests.m; sourceTree = "<group>"; };
-		0D13B2A11F8E027F0088756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D13B2A61F8E027F0088756A /* passDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D13B2AA1F8E027F0088756A /* passDemo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = passDemo2UITests.m; sourceTree = "<group>"; };
-		0D13B2AC1F8E027F0088756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D13B2B81F8E02B20088756A /* JKTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKTextField.h; sourceTree = "<group>"; };
 		0D13B2B91F8E02B20088756A /* JKTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTextField.m; sourceTree = "<group>"; };
 		0D13B2BB1F8E03950088756A /* JKInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKInputView.h; sourceTree = "<group>"; };
@@ -91,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				0D13B2851F8E027E0088756A /* passDemo2 */,
-				0D13B29E1F8E027E0088756A /* passDemo2Tests */,
-				0D13B2A91F8E027F0088756A /* passDemo2UITests */,
 				0D13B2841F8E027E0088756A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,24 +111,6 @@
 				0D13B2941F8E027E0088756A /* Info.plist */,
 			);
 			path = passDemo2;
-			sourceTree = "<group>";
-		};
-		0D13B29E1F8E027E0088756A /* passDemo2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				0D13B29F1F8E027F0088756A /* passDemo2Tests.m */,
-				0D13B2A11F8E027F0088756A /* Info.plist */,
-			);
-			path = passDemo2Tests;
-			sourceTree = "<group>";
-		};
-		0D13B2A91F8E027F0088756A /* passDemo2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				0D13B2AA1F8E027F0088756A /* passDemo2UITests.m */,
-				0D13B2AC1F8E027F0088756A /* Info.plist */,
-			);
-			path = passDemo2UITests;
 			sourceTree = "<group>";
 		};
 		0D13B2C11F8F07B10088756A /* Framework */ = {
@@ -309,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D13B2A01F8E027F0088756A /* passDemo2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D13B2AB1F8E027F0088756A /* passDemo2UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
