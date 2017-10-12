@@ -1,6 +1,6 @@
 //
-//  passDemoTests.m
-//  passDemoTests
+//  passDemo2Tests.m
+//  passDemo2Tests
 //
 //  Created by lqb on 2017/10/11.
 //  Copyright © 2017年 lqb. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface passDemoTests : XCTestCase
+@interface passDemo2Tests : XCTestCase
 
 @end
 
-@implementation passDemoTests
+@implementation passDemo2Tests
 
 - (void)setUp {
     [super setUp];

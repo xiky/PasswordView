@@ -1,6 +1,6 @@
 //
-//  passDemoUITests.m
-//  passDemoUITests
+//  passDemo2UITests.m
+//  passDemo2UITests
 //
 //  Created by lqb on 2017/10/11.
 //  Copyright © 2017年 lqb. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface passDemoUITests : XCTestCase
+@interface passDemo2UITests : XCTestCase
 
 @end
 
-@implementation passDemoUITests
+@implementation passDemo2UITests
 
 - (void)setUp {
     [super setUp];
